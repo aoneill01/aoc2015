@@ -20,7 +20,7 @@ function incrementPassword(password) {
     }
     password = password.substring(0, i) + 'a' + password.substring(i + 1)
   }
-  return 'aaaaaaaa'
+  return password
 }
 
 function isValid(password) {
